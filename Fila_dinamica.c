@@ -29,10 +29,6 @@ void Inserir(Fila *fila, int num){
     else{
         fila->fim->prox=novo;
         fila->fim=novo;
-       /* aux =*fila;  //este codigo servia antes de criar o inicio e fim
-    while(aux->prox)
-        aux = aux ->prox;
-    aux ->prox=novo;*/
     }
     fila->tam++;
  }
